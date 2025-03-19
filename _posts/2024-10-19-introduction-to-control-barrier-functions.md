@@ -26,14 +26,10 @@ $$
 \end{align}
 $$
 
-$$
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.5\textwidth]{clf.png} 
-    \caption{exponentially stabilizing CLF } 
-    \label{fig:example} 
-\end{figure}
-$$
+
+![Chirpy Starter Template](/assets/articles/2024-10-19-clf.png)
+_exponentially stabilizing CLF_
+
 so it would be :
 
 $$
@@ -94,12 +90,9 @@ $$
 
 for finding safe region we use the dual of CLF:
  
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.5\textwidth]{cbf.png} 
-    \caption{exponentially stabilizing CLF } 
-    \label{fig:example} 
-\end{figure}
+
+![Chirpy Starter Template](/assets/articles/2024-10-19-cbf.png)
+_exponentially stabilizing CBF_
 
 $$
 \begin{equation}
