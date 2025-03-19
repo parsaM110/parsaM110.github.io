@@ -3,7 +3,7 @@ title: Introduction to Control Barrier Functions
 date: 2024-10-19 14:10:00 +0800
 categories: [Control Theory]
 tags: []
-author: parsa Momeni
+author: parsa
 math: true
 image:
   path: assets/headers/2024-10-19-introduction-to-control-barrier-functions.png
@@ -155,46 +155,46 @@ $$
 \end{equation}
 $$
 
-Class $$\kappa $$ functions are strictly increasing, continuous functions \(\kappa: [0, \infty) \to [0, \infty)\) with \(\kappa(0) = 0\). These functions are commonly used in control theory, Lyapunov stability analysis, and robust control.
+Class $$\kappa $$ functions are strictly increasing, continuous functions $$\kappa: [0, \infty) \to [0, \infty)\) with \(\kappa(0) = 0$$. These functions are commonly used in control theory, Lyapunov stability analysis, and robust control.
 
 
 
 ### Examples of Class $$\kappa$$ Functions:
 1. Linear Function: 
-   \[
+   $$
    \kappa(r) = ar, \quad a > 0
-   \]
+   $$
    This is the simplest form, where \(a\) is a positive constant.
 
 2. Power Function:
-   \[
+   $$
    \kappa(r) = ar^b, \quad a > 0, \quad b > 0
-   \]
+   $$
    This is frequently used in control applications.
 
 3. Exponential Function:
-   \[
+   $$
    \kappa(r) = a(e^{br} - 1), \quad a > 0, \quad b > 0
-   \]
+   $$
    This function grows faster than polynomial functions.
 
 4. Logarithmic Function (for small \( r \)):
-   \[
+   $$
    \kappa(r) = a \ln(1 + br), \quad a > 0, \quad b > 0
-   \]
+   $$
    This is only a Class \(\kappa\) function for \( r \geq 0 \), as it is strictly increasing and satisfies \(\kappa(0) = 0\).
 
 5. Square Root Function:
-   \[
+   $$
    \kappa(r) = a\sqrt{r}, \quad a > 0
-   \]
+   $$
    This grows slower than linear but still satisfies the required properties.
 
 6. Sigmoid-Type Function:
-   \[
+   $$
    \kappa(r) = \frac{r}{1 + r}
-   \]
-   This is bounded, so it is not typically used when unbounded growth is needed, but it satisfies the basic properties of a Class \(\kappa\) function.
+   $$
+   This is bounded, so it is not typically used when unbounded growth is needed, but it satisfies the basic properties of a Class $$\kappa$$ function.
 
 
 
