@@ -4,6 +4,7 @@ author: parsa Momeni
 date: 2024-10-19 14:10:00 +0800
 categories: [Control Theory]
 tags: []
+math: true
 ---
 
 ## CLF
@@ -110,7 +111,7 @@ $$
 
 go an use kappa functions
 
-
+$$
 \begin{equation}
 \begin{cases}
 b_{C,H} = \dfrac{(x_C(t) - x_H(t))^2}{a_C^2} + \dfrac{(y_C(t) - y_H(t))^2}{b_C^2} - v_C^2(t) \geq 0, \\[10pt]
@@ -119,24 +120,31 @@ b_{1,H} = \dfrac{(x_1(t) - x_H(t))^2}{a_1^2} + \dfrac{(y_1(t) - y_H(t))^2}{b_1^2
 b_{U,C} = \dfrac{(x_U(t) - x_C(t))^2}{a_C^2} + \dfrac{(y_U(t) - y_C(t))^2}{b_C^2} - v_C^2(t) \geq 0.
 \end{cases}
 \end{equation}
+$$
 
+$$
 \begin{align}
 L_f b_{C,H} (\mathbf{x}_C, \mathbf{x}_H) &= L_f b_{C,H} (\mathbf{x}_C, \bar{\mathbf{x}}_H + \mathbf{e}) \notag \\
 &= \frac{2 (x_C - \bar{x}_H - e_x)}{a_C^2} (v_C \cos\theta_C - \bar{v}_H \cos\bar{\theta}_H - h_x - \dot{e}_x) \notag \\
 &\quad + \frac{2 (y_C - \bar{y}_H - e_y)}{b_C^2} (v_C \sin\theta_C - \bar{v}_H \sin\bar{\theta}_H - h_y - \dot{e}_y), 
 \end{align}
+$$
 
+$$
 \begin{align}
 L_g b_{C,H} (\mathbf{x}_C, \mathbf{x}_H) &= L_g b_{C,H} (\mathbf{x}_C, \bar{\mathbf{x}}_H + \mathbf{e}) \notag \\
 &= [L_{g_u} b_{C,H} (\mathbf{x}_C, \mathbf{x}_H), L_{g_\phi} b_{C,H} (\mathbf{x}_C, \mathbf{x}_H)] \notag \\
 &= 2 v_C \left[ -1, \frac{-(x_C - \bar{x}_H - e_x)}{a_C^2} \sin\theta_C + \frac{(y_C - \bar{y}_H - e_y)}{b_C^2} \cos\theta_C \right], 
 \end{align}
+$$
 
+$$
 \begin{equation}
 \alpha_1 \big( b_{C,H} (\mathbf{x}_C, \mathbf{x}_H) \big) = k_1 b_{C,H} (\mathbf{x}_C, \bar{\mathbf{x}}_H + \mathbf{e}).
 \end{equation}
+$$
 
-
+$$
 \begin{equation}
 \begin{split}
 \frac{2 (x_C - \bar{x}_H - e_x)}{a_C^2} (v_C \cos\theta_C - \bar{v}_H \cos\bar{\theta}_H - h_x - \dot{e}_x) \\
@@ -144,12 +152,10 @@ L_g b_{C,H} (\mathbf{x}_C, \mathbf{x}_H) &= L_g b_{C,H} (\mathbf{x}_C, \bar{\mat
 + 2 v_C \left[ -1, \frac{-(x_C - \bar{x}_H - e_x)}{a_C^2} \sin\theta_C + \frac{(y_C - \bar{y}_H - e_y)}{b_C^2} \cos\theta_C \right] \\
 + k_1 b_{C,H} (\mathbf{x}_C, \bar{\mathbf{x}}_H + \mathbf{e}) \geq 0
 \end{split}
-
-
 \end{equation}
+$$
 
-
-Class \(\kappa\) functions are strictly increasing, continuous functions \(\kappa: [0, \infty) \to [0, \infty)\) with \(\kappa(0) = 0\). These functions are commonly used in control theory, Lyapunov stability analysis, and robust control.
+Class $$\kappa $$ functions are strictly increasing, continuous functions \(\kappa: [0, \infty) \to [0, \infty)\) with \(\kappa(0) = 0\). These functions are commonly used in control theory, Lyapunov stability analysis, and robust control.
 
 
 
