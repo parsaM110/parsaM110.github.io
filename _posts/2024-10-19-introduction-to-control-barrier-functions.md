@@ -5,8 +5,15 @@ date: 2024-10-19 14:10:00 +0800
 categories: [Control Theory]
 tags: []
 math: true
+image:
+  path: assets/headers/2024-10-19-introduction-to-control-barrier-functions.png
+  alt: CBF implementation
 ---
+## Introduction
 
+Obstacle avoidance is a fundamental and pervasive challenge in the design of control systems, with applications ranging from autonomous vehicles to robotic manipulators. At its core, the problem involves ensuring that a system navigates its environment without colliding with obstacles, which can often be represented as geometric constraints, such as ellipses or other shapes. These constraints are inherently rigid—for instance, a system must not enter a region defined by an obstacle. In optimal control problems (OCPs), such constraints are typically imposed as $ h > 0 $, where $ h $ represents a safety condition. However, this formulation, while mathematically straightforward, often fails to account for the dynamic behavior of the system, leading to solutions that are neither safe nor robust. For example, minimizing control effort might result in trajectories that come dangerously close to obstacles, leaving little margin for error in the presence of uncertainties or disturbances.
+
+To address this limitation, researchers have explored innovative approaches that incorporate additional system dynamics, such as velocity, into the constraint formulation. These methods aim to make the safety condition more sensitive to the system's behavior, ensuring that the system not only avoids obstacles but does so in a manner that is dynamically feasible and robust. This line of inquiry has culminated in the development of *Control Barrier Function (CBF) Theory*, a powerful framework that transforms rigid safety constraints into dynamic, system-aware conditions. By leveraging CBFs, we can construct new constraint terms that are explicitly tied to the system's dynamics, enabling safer and more efficient control strategies. This article delves into the principles of CBFs, their application in obstacle avoidance, and their role in advancing the field of control system design.
 ## CLF
 
 we consider an affine system:
