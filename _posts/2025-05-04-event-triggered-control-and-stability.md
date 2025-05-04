@@ -27,36 +27,37 @@ V(x) = {x(t)}^TPx(t) > 0 \implies P > 0 \quad \text{Lyapunov stability}
 $$
 
 $$
-\dot{V(x)} = \dot{x(t)^T}Px(t) + x(t)^TP\dot{x(t)} < 0
+\dot{V}(x) = \dot{x}^T(t)Px(t) + x^T(t)P\dot{x(t)} < 0
 $$
 
 $$
-\underset{\text{state space}}{\implies} {x(t)}^T (A+BK)^T P x(t) + x^T(t)P(A+BK)x(t) < 0 
+\underset{\text{state space}}{\implies} {x(t)}^T (A+Bk)^T P x(t) + x^T(t)P(A+Bk)x(t) < 0 
 $$
 
 $$
-\implies x^T(t)\underbrace{[\left (A+BK)^TP + P(A+BK) \right]}_{N.O.} x(t) < 0
+\implies x^T(t)\underbrace{[\left (A+Bk)^TP + P(A+Bk) \right]}_{N.O.} x(t) < 0
 $$
 
 $$
 \text{stability condition} :
 \begin{cases} 
       P > 0 \\ 
-      (A+BK)^TP+ P(A+BK) < 0\\
+      (A+Bk)^TP+ P(A+Bk) < 0\\
    \end{cases}
 $$
 
 ## Event-Based
+
 $$
-\dot{x(t)} = Ax(t) + BKx(\tau)
+u = kx(\tau) \implies \dot{x(t)} = Ax(t) + Bkx(\tau)
 $$
 
 $$
-\dot{V(x)} = \dot{x(t)^T}Px(t) + x(t)^TP\dot{x(t)} < 0
+\dot{V}(x) = \dot{x}(t)^TPx(t) + x(t)^TP\dot{x}(t) < 0
 $$
 
 $$
-\dot{V(x)} = x^T(\tau) (BK)^TPx(t) + x^T(t)PBKx(\tau) + x(t)A^TPx(t) + x^T(t)PAx(t) < 0
+\dot{V}(x) = x^T(\tau) (Bk)^TPx(t) + x^T(t)PBkx(\tau) + x(t)A^TPx(t) + x^T(t)PAx(t) < 0
 $$
 
 by defining error singal, we have:
@@ -65,5 +66,5 @@ e(t) = x(t) - x(\tau) \implies x(\tau) = x(t) - e(t)
 $$
 
 $$
-\implies x^T(t)[\left (A+BK)^TP + P(A+BK) \right] x(t) - e(t)^T(BK)^TPx(t) - x^T(t)PBKx(t) < 0
+\implies x^T(t)[\left (A+Bk)^TP + P(A+Bk) \right] x(t) - e(t)^T(Bk)^TPx(t) - x^T(t)PBkx(t) < 0
 $$
