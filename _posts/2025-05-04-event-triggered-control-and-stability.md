@@ -58,3 +58,12 @@ $$
 $$
 \dot{V(x)} = x^T(\tau) (BK)^TPx(t) + x^T(t)PBKx(\tau) + x(t)A^TPx(t) + x^T(t)PAx(t) < 0
 $$
+
+by defining error singal, we have:
+$$
+e(t) = x(t) - x(\tau) \implies x(\tau) = x(t) - e(t) 
+$$
+
+$$
+\implies x^T(t)[\left (A+BK)^TP + P(A+BK) \right] x(t) - e(t)^T(BK)^TPx(t) - x^T(t)PBKx(t) < 0
+$$
