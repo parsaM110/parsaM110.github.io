@@ -27,7 +27,7 @@ V(x) = {x(t)}^TPx(t) > 0 \implies P > 0 \quad \text{Lyapunov stability}
 $$
 
 $$
-\dot{V}(x) = \dot{x}^T(t)Px(t) + x^T(t)P\dot{x(t)} < 0
+\dot{V}(x) = \dot{x}^T(t)Px(t) + x^T(t)P\dot{x}(t) < 0
 $$
 
 $$
@@ -49,7 +49,7 @@ $$
 ## Event-Based
 
 $$
-u = kx(\tau) \implies \dot{x(t)} = Ax(t) + Bkx(\tau)
+u = kx(\tau) \implies \dot{x}(t) = Ax(t) + Bkx(\tau)
 $$
 
 $$
@@ -57,10 +57,11 @@ $$
 $$
 
 $$
-\dot{V}(x) = x^T(\tau) (Bk)^TPx(t) + x^T(t)PBkx(\tau) + x(t)A^TPx(t) + x^T(t)PAx(t) < 0
+\dot{V}(x) = \underbrace{x^T(\tau) (Bk)^TPx(t)} + x^T(t)PBkx(\tau) + \underbrace{x^T(t)A^TPx(t)} + x^T(t)PAx(t) < 0
 $$
 
 by defining error singal, we have:
+
 $$
 e(t) = x(t) - x(\tau) \implies x(\tau) = x(t) - e(t) 
 $$
