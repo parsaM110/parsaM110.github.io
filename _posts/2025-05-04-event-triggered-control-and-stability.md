@@ -98,7 +98,7 @@ $$
 this yields the event triggered condition we were looking for:
 
 $$
-|e(t)| \leq - \frac{\lambda_min(Q) ||x(t)||}{2 ||Bk||} \quad \text{event-triggered condtion}
+|e(t)| \leq - \frac{\lambda_{min}(Q) ||x(t)||}{2 ||Bk||} \quad \text{event-triggered condtion}
 $$
 
 > why is this the event-triggered condtion?
@@ -111,7 +111,7 @@ basically the idea here is to find some kind of condition with two intentions:
 > why we care about `e(t)`?
 {: .prompt-info }
 
-because by if you recall $$e(t) = x(t) - x(\tau)$$ , and we by closing the relay and update the feedback signal we can make it zero, so the procedure is like this in event triggered:
+because  if you recall $$e(t) = x(t) - x(\tau)$$ , and we by closing the relay and update the feedback signal we can make it zero, so the procedure is like this in event triggered:
 1. find an upper bound on e(t) which gaurantee stability which gonna lead to this: `f(e(t)) < ...`
 2. if we see the bound has been violated we update the singal which means we put forfully put `e(t)` to zero.
  
