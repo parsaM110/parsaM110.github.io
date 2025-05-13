@@ -81,7 +81,7 @@ $$
 $$
 
 $$
-underset{\text{previous part }}{\implies} x^T(t)Q x(t) - 2e(t)^T(Bk)^TPx(t) < 0
+\underset{\text{previous part }}{\implies} x^T(t)Q x(t) - 2e(t)^T(Bk)^TPx(t) < 0
 $$
 
 this yeilds 
@@ -96,8 +96,9 @@ $$
 $$
 
 this yields the event triggered condition we were looking for:
+
 $$
-|e(t)| \leq - \frac{\lambda_min(Q) ||x(t)||}{2 ||Bk||} /quad event-triggered condtion
+|e(t)| \leq - \frac{\lambda_min(Q) ||x(t)||}{2 ||Bk||} \quad \text{event-triggered condtion}
 $$
 
 > why is this the event-triggered condtion?
