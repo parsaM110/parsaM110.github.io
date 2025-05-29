@@ -6,7 +6,7 @@ tags: []
 author: parsa
 math: true
 image:
-  path: assets/headers/2025-05-29-history-of-computation-and-rendering-(a-guide-on-what-is-what)y.png
+  path: assets/headers/2025-05-29-history-of-computation-and-rendering-(a-guide-on-what-is-what).jpg
   alt: Computer Science
 ---
 
