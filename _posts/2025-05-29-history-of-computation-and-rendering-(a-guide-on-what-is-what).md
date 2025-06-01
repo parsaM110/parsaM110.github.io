@@ -50,3 +50,6 @@ or lxqt is built by Qt generate isntruction for x11 then it send to opengl and i
 - https://controllerstech.com/interface-lcd-16x2-with-stm32-without-i2c/
 - https://diyusthad.com/2019/06/two-ways-of-interfacing-lcd-module-with.html
 - https://www.lcd-module.com/support/difference-advantage-betterer-know-how-lcd-tft-oled-ips.html
+
+- https://ieeexplore.ieee.org/document/7926405
+- https://www.redalyc.org/journal/6617/661773214004/html/#:~:text=The%20most%20well%2Dknown%20issue%20associated%20with%20revealing,intercepting%20visual%20information%20displayed%20on%20computer%20monitors.&text=Computer%20monitors%20leak%20electromagnetic%20information%20as%20a,the%20display%20principle%20(Mao%20et%20al%2C%202017).
