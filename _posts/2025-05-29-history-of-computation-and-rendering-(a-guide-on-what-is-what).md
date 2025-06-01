@@ -36,6 +36,9 @@ so now we can create different stuff both the code base and the method matte, we
 
 
 ## X86 corei7 + VGA/HDMI/Display port/ board + any convential monitor
+so now rendering here is not done only by cpu here, we have gpu and there is infrastructure to talk to gpu called opengl or vulkan, now all these are translated to gpu instruction by these
+the flow is this suppoe GNOME which is built by gtk c++ toolkit generate instructions for wayland and  that gives it to opengl and that is send to gpu for rendering 
+or lxqt is built by Qt generate isntruction for x11 then it send to opengl and it send it to cpu/gpu for rendering
 
 
 
@@ -46,3 +49,4 @@ so now we can create different stuff both the code base and the method matte, we
 # Sources
 - https://controllerstech.com/interface-lcd-16x2-with-stm32-without-i2c/
 - https://diyusthad.com/2019/06/two-ways-of-interfacing-lcd-module-with.html
+- https://www.lcd-module.com/support/difference-advantage-betterer-know-how-lcd-tft-oled-ips.html
