@@ -12,7 +12,7 @@ image:
 
 so you know, you defintly have heard about Lipschitz continutiy in fields of deep leanring or contorl systems, at first I didn't grasp why this have its own name and what is really behind its defention, it was really confusing, so after some look around and see, here is the intiution I grasped:
 
-it is basically saying the derivitaive of function is bounded but it also have some more inttiusion 
+it is basically saying the derivitaive of function is bounded but it also have some more intution  
 
 
 
