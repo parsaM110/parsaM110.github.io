@@ -1,5 +1,5 @@
 ---
-title: history-of-computation-and-rendering-(a-guide-on-what-is-what)
+title: History of computation and rendering (a guide on what is what)
 date: 2025-05-29 15:53:00 +0800
 categories: [Computer Science]
 tags: []
