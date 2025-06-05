@@ -14,7 +14,7 @@ so you know, you defintly have heard about Lipschitz continutiy in fields of dee
 
 it is basically saying the derivitaive of function is bounded but it also have some more intution  
 
-![Desktop View](https://en.wikipedia.org/wiki/Lipschitz_continuity#/media/File:Lipschitz_Visualisierung.gif){: width="972" height="589" }
+![Desktop View](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Lipschitz_Visualisierung.gif/500px-Lipschitz_Visualisierung.gif){: width="972" height="589" }
 
 
 
