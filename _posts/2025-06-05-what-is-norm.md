@@ -10,10 +10,12 @@ image:
   alt: Control Theory
 ---
 
-well since we are talking about norms it reminds me of RIP Norm macdonalled, one of my favorite comedians
-so any way what is mathimatical norm and especially $L_p$ norm and $L^2$ space and unit sphere and all this?
+Well, since we're on the topic of norms, it reminds me of the late Norm Macdonald, one of my favorite comedians. Just like Norm had a unique way of looking at the world, mathematical norms give us a unique perspective on vectors.
+so anyway, So, what is a mathematical norm? 
 
-so norms are something that assing postive value to a vector that gonna show its magnitiude somehow, and is associaed with $L_P$ norm mostly and the reason they call it L comes from Labesge norm inwhich Labesge was a mathmatician in early 20th centery mostly known for his Phd thesis on Labesge integrals (not a very usefull thing, but mostly solve problems with riemann integral in encountring crazy functions like Dirichlet function and subjects like measure theory, like how countability and uncountablity effects integral like cantor's paradox and hilbert hotel problem)
+In mathematics, a norm is a function that assigns a positive value to a vector, representing its magnitude. This concept is closely associated with normed spaces, which are vector spaces equipped with a norm. The term "L" in norms, such as Lp norms, originates from Henri Léon Lebesgue, a mathematician from the early 20th century. He is best known for his PhD thesis on Lebesgue integrals, which, while not widely applicable in everyday scenarios, provided  advancements in solving problems related to Riemann integrals, especially when dealing with crazy functions like the Dirichlet function or exploring concepts such as measure theory ,countability and uncountability, which have implications for integrals. This includes intriguing paradoxes like Cantor’s paradox and the Hilbert hotel problem, which challenge our understanding of infinity and set theory.
+
+When we discuss norms, we often refer to normed spaces and unit spheres. A normed space is a vector space equipped with a norm, allowing us to explore the geometry of these spaces. The unit sphere, on the other hand, consists of all vectors with a magnitude of one, serving as a fundamental concept in understanding these spaces.
 
 
 so first the path is like this:
