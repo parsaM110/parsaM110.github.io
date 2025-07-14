@@ -16,7 +16,12 @@ so you may encounter Robbins-Siegmund Lemma in proof of Stochastic gradient desc
 so you might heard this in stock and crypto market about Martingale strategye[^footnote], the question  is why and how it works? or is it recipe for disaster?
 
 
+## Robbins-Monro conditions
+
+- https://en.wikipedia.org/wiki/Stochastic_approximation
+- https://www.di.ens.fr/~fbach/orsay2016/lecture3.pdf
 
 ## Reverse Footnote
 
 [^footnote]: It involves doubling up on losing bets and reducing winning bets by half.
+
