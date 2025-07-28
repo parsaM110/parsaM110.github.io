@@ -18,8 +18,17 @@ so you might heard this in stock and crypto market about Martingale strategye[^f
 
 ## Robbins-Monro conditions
 
+## Martingle Condition
+
+## SubMartingle and SuperMartingle
+
+## Martingale difference sequence
+
+## SGD
+
 - https://en.wikipedia.org/wiki/Stochastic_approximation
 - https://www.di.ens.fr/~fbach/orsay2016/lecture3.pdf
+- https://www.princeton.edu/~kulkarni/Papers/Journals/j013_1996_kh_transac.pdf
 
 ## Reverse Footnote
 
