@@ -6,7 +6,7 @@ tags: []
 author: parsa
 math: true
 image:
-  path: assets/headers/2025-05-04-event-triggered-control-and-stability.png
+  path: assets/headers/image.png
   alt: Math
 ---
 # Graph Laplacian, Eigenvalues, and Eigenvectors
@@ -44,13 +44,13 @@ $$
   \end{bmatrix}
   $$
 
-Thus, \( \lambda = 0 \) is an eigenvalue, and \( \mathbf{1} \) is an eigenvector.
+Thus, $ \lambda = 0 $ is an eigenvalue, and $ \mathbf{1} $ is an eigenvector.
 
 ---
 
-## Normalized Form
+## other conditions
 $$
-I - L = \frac{1}{m} \mathbf{1}\mathbf{1}^T, \quad \|v\| < 1
+\| I + L - \frac{1}{m} \mathbf{1}\mathbf{1}^T \| < 1
 $$
 
 ---
