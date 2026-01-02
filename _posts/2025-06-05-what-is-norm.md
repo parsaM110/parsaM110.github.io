@@ -43,3 +43,7 @@ norms -> $L_P$ spaces -> normed vecotr spaces -> hilbert spaces
 - https://www.sciencedirect.com/science/article/abs/pii/S1355219896000172
 - https://medium.com/the-haven/we-are-complaining-that-oppenheimer-did-not-have-john-von-neumann-because-we-are-not-real-acc9581f69b4
 
+# geodesics and norms
+- https://math.stackexchange.com/questions/4925458/geodesics-in-metric-spaces
+- https://mathoverflow.net/questions/368633/gromov-hausdorff-distance-to-tubular-neighborhood/369199#369199  
+
